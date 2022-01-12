@@ -1,4 +1,4 @@
-import { Bot, DiscorddenoUser, Embed } from "../../deps.ts";
+import { Bot, DiscordenoUser, Embed } from "../../deps.ts";
 
 const embedLimits = {
     title: 256,
@@ -47,7 +47,7 @@ export class Embeds extends Array<Embed> {
         return data;
     }
 
-    setAuthor(name: string, iconUrl: string | DiscorddenoUser, url?: string) {
+    setAuthor(name: string, iconUrl: string | DiscordenoUser, url?: string) {
         const embed = this.#getLastEmbed();
         const finalName = this.enforceLimits ? this.fitData(name, embedLimits.authorName): name;
 
