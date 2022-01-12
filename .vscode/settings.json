@@ -1,0 +1,17 @@
+{
+    "deno.enable": true,
+    "deno.lint": true,
+    "deno.unstable": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true,
+        "source.fixAll": true,
+    },
+    "deno.suggest.imports.hosts": {
+        "https://deno.land": true,
+        "https://cdn.nest.land": true,
+        "https://crux.land": true,
+        "https://denopkg.com": false,
+    }
+}
