@@ -40,7 +40,7 @@ export function logger({
         let color = colorFunctions.get(level);
         if (!color) color = noColor;
 
-        const data = new Date();
+        const date = new Date();
 
         const log = [
             `[${date.toLocaleDateString()} ${date.toLocaleTimeString()}]`,
