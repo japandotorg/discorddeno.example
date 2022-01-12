@@ -1,4 +1,4 @@
-/* deno-lint-ignore-file no-explicit-any */
+/* deno-lint-ignore-file no-explicit */
 import { bold, cyan, gray, italic, red, yellow } from "../../deps.ts";
 
 export enum Loglevels {
